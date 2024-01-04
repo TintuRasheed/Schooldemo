@@ -1,0 +1,42 @@
+{% extends 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Maths {% endblock %}</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+    {% block content %}
+ 
+  <div class="container">
+    <br><br><h2><strong>DEPARTMENT OF MATHEMATICS</strong></h2>
+
+    <br><p><span><b><u>VISION</u></b></span>
+
+<p>To centre stage Mathematical knowledge in the curriculum; instill analytical and logical thinking among students and promote Mathematical thought as an important area of human thought.</p>
+<p><span><b><u>MISSION</u></b></span>
+
+
+<p>The mission of the mathematics department is to provide an environment where students can learn and become competent users of mathematics and mathematical application. Moreover, the department will contribute to the development of students as mathematical thinkers, enabling them to become life long learners, to continue to grow in their chosen professions, and to function as productive citizens. To encourage students to conduct student projects to develop their analytical and logical thinking.</p>
+
+<p><span><b><u>BRIEF HISTORY OF THE DEPARTMENT</u></b></span>
+<p>The department of Mathematics established in 1955, has been in the main stream of academic life of Nirmala. The charter members of the teaching faculty of Mathematics were Rev. Dr. Thomas Moothedan (Head of the Department), Mr. George P. Kurian and Mr. Kulathu Iyer.</p>
+
+<p>The first B.Sc. batch came out in flying colours with the Ist Rank. It was a great matter of joy that Mr. P. P. Sebastian of the first batch bagged the first rank in the university examination and brought the laurel of distinction for the college. Ever since the inception, the dept. of Mathematics has been producing consistently 100% pass with first and second ranks in the university examinations many times. One of the outstanding rank among them was the all time record of smt. Gracy Sebastian who secured 1000/1000 marks. She later served as a member of the department of mathematics of Nirmala College. The dept. is genuinely proud of its alumni, most of whom are placed in covetable positions in India and abroad.
+
+The department has always been committed to sustain excellence in its academic pursuits as well as co-curricular activities.</p>
+
+<p><span><b><u>MILESTONE IN THE JOURNEY OF THE DEPARTMENT</u></b></span>
+
+<p>1st rank for BSc.(1958 – First Batch)</p>
+<p>1st rank for BSc.(1965)</p>
+<p>1st rank in BSc.(1966)</p>
+<p>2nd rank for BSc.(1967)</p>
+<p>1st rank for BSc (1976)</p>
+<p>7th rank for BSc(1998)</p>
+{% endblock %}
+</body>
+</html>

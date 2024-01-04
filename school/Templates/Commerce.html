@@ -1,0 +1,54 @@
+{% extends 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Commerce {% endblock %}</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+    {% block content %}
+ 
+  <div class="container">
+    <br><br><h2><strong>DEPARTMENT OF COMMERCE</strong></h2>
+
+    <br><p><span><b><u>VISION</u></b></span>
+
+        <p>To develop as a centre for excellence in value based commerce education by inspiring students to dream high.</p>
+        
+        <p><span><b><u>MISSION</u></b></span>
+        
+        <p>To impart competencies for employment in both domestic and global job market.
+        To imbibe required skills for self-employment and entrepreneurship.
+        To mould commerce and accounting professionals in line with the service/ industry requirements.
+        To promote the culture of a research oriented community.
+        To develop good citizens with social accountability.</p>
+
+        <p><span><b><u>HISTORY</u></b></span>
+
+        
+       <p> Department of Commerce started in 1955 pioneered commerce studies in the eastern part of Kerala. It was affiliated to the University of Kerala when the first batch of B.Com course was started in July 1955 with 22 students and two teachers. The department became a centre of postgraduate studies in commerce in 1965. It was approved as a research centre in Commerce by the Mahatma Gandhi University in July 2000. In 2004 – 2005, the department celebrated its Golden Jubilee. The Department is well known for its academic performance among commerce and academic community all over the state. It is the biggest department in the college with more than 700 students and 25 teachers.</p>
+        
+       <p><span><b><u>MILESTONE IN THE PATH OF PROGRESS</u></b></span>
+        
+        <p>
+        <p>1955 July         : Started B.Com.</p>
+        
+        <p>1965 July         : Upgraded to a Postgraduate Department by starting M.Com.</p>
+        
+        <p>2000 July         : Approved as a Research Centre in Commerce</p>
+        
+        <p>2000 August       : UGC Sponsored B.Com. Vocational (Computer Application) started</p>
+        
+        <p>2005              : Celebrated Golden Jubilee</p>
+        
+        <p>2007 January      : Recognized as a satellite study centre in ICWAI (CMA)</p>
+        
+        <p>2012 July         : Started three more self-financing programmes:</p>
+        
+        <p>B.Com Model III- Taxation, Office Management and Secretarial Practice and M.Com. Finance</p></div></form>
+{% endblock %}
+    </body>
+</html>

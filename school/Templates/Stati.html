@@ -1,0 +1,19 @@
+{% extends 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} STATISTICS {% endblock %}</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+    {% block content %}
+ 
+  <div class="container">
+    <br><br><h2><strong>DEPARTMENT OF STATISTICS</strong></h2><br>
+    <p>Nirmala College Muvattupuzha is a first grade college which has completed 66 years of glorious service. The college is affiliated to M. G. University, Kottayam. The Department of Statistics started functioning in 1984 with the introduction of M. Sc. Statistics course. In 2009, the department is elevated as an approved research centre in Statistics of the M. G. University. In addition, it offers subsidiary Statistics for B.Sc. Mathematics, a compulsory main paper in Statistics for B.A. Economics and M.A. Economics. Prof. Tharu P.C. was the first H. O. D and Ms. Denneesamma Joseph, Mr. T. K. Jose, Mr. Cyriac P. C., and Ms. Sophy Thomas, Dr. Mathachan Pathiyil, Ms. Jessy John and Dr. Johny Scaria were former faculties of the department. Dr. Seetha Lekshmi V., Dr. Jacob T. M., Dr. Renjini K. R., Ms. Mary Refflesia Chackochan and Mr. Bharath Prasad K. are the current faculty members of the department. Ever since its inception, the Department has always kept high standards and traditions in academic and co-curricular activities. Over the years, the department has established an excellent track record in University examination results and in student placements. Five students secured PhD degree from the department. Our students have been consistently securing university ranks in the examination. 6 alumni from the department are selected to prestigious Indian Statistical Service. The department is giving special training in softwares like Minitab, SPSS, SAS, R, Mathematica, etc and our students got placements in several multinational companies.</p>
+    {% endblock %}
+</body>
+</html>

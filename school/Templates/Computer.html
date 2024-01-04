@@ -1,0 +1,34 @@
+{% extends 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Computer {% endblock %}</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+    {% block content %}
+    
+    
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <br><br><h2><strong>DEPARTMENT OF COMPUTER SCIENCE</strong></h2>
+    <br><p align="justify">&nbsp &nbsp &nbsp &nbsp <span><b>What is Computer Science?</b></span>
+        The Department of Computer Science is the heir to a princely heritage of academic excellence. Master of Computer Applications course was officially inaugurated in November 2002 by His Excellency Rt. Rev. Dr. George Punnakkottil, Bishop of Kothamangalam, followed by blessing of the newly constructed, well equipped computer lab.  This programme is approved by AICTE, New Delhi, and is affiliated to M.G. University, Kottayam. The MCA programme offered by the department maintains the superlative standards of academic excellence sustained by the college.
+
+        <p>The BCA programme is started in the academic year 2003-04 with batch strength of 60 students.</p>
+        
+        <p>The newly built MCA block was blessed by Rt. Rev. Dr. George Punnakottil, Patron in the year 2011-12. In the academic year 2014-15, the department got affiliation for the new course MCA (Lateral), a two year programme with batch strength of 60 students. The 3 year MCA programme with the strength of 60 students is converted to 2 year programme in academic year 2020-21 resulting a total strength of 120 students in the MCA Regular programme.</p>
+        
+        <p>By the year 2020, 16 MCA Batches, 15 BCA batches and 5 MCA (Lateral) batches were passed out with flying colors.</p>
+        
+        <p>The faculty blends superbly the experience and expertise of luminaries with the drive, dynamism and innovation of youngsters, the depth and width of knowledge of academicians and the practical wisdom of professional managers.</div></form></p>
+{% endblock %}
+        </div>
+    </div>
+    </form>
+    </body>
+</html>

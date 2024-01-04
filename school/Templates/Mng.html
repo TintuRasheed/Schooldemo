@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} MANAGEMENT {% endblock %}</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+    {% block content %}
+ 
+  <div class="container">
+    <br><br><h2><strong>DEPARTMENT OF MANAGEMENT STUDIES</strong></h2><br>
+    <p>The Department of Management studies started functioning in the year 2012. The
+        Department offers 1 full time Post Graduate Programme, Master of Human Resource
+        Management (M.A.  (H.R.M)). Through its successful journey in the last years, Department
+        of Management Studies offered many entrepreneurs and HR professional to the world.
+        Management studies programmes provide students with a solid foundation
+        in organizational behavior and human resource management while electives in labor-
+        management relations, negotiation, conflict resolution, compensation systems
+        and organizational development allow students to develop deeper knowledge in specific
+        areas of interest. The M.A.  (H.R.M) programme offers the students various extra-curricular
+        activities to get a practical experience of how to handle and management various
+        situations.</p>
+        {% endblock %}
+    </body>
+    </html>
